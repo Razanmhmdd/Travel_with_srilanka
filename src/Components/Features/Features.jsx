@@ -4,7 +4,7 @@ import { HiMiniUserGroup } from "react-icons/hi2";
 import { HiHand } from "react-icons/hi";
 function WithlocalsSection() {
   return (
-    <div className="bg-red-50 text-amber-500 py-10 px-5 md:px-20">
+    <div className="bg-amber-50 text-amber-500 py-10 px-5 md:px-20">
       <div className="text-center mb-10">
         <h1 className="text-2xl md:text-3xl font-semibold">WHY YOU SHOULD BOOK TRAVEL WITH SRILANKA </h1>
       </div>

@@ -3,7 +3,7 @@ import foodImage from "../../assets/img/img1.jpeg"; // Replace with the path to 
 
 const SriLankanFoodSection = () => {
   return (
-    <section className="bg-red-50 py-10 px-5 md:px-20">
+    <section className="bg-amber-50 py-10 px-5 md:px-20">
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         {/* Image Section */}
         <div className="md:w-1/2 flex justify-center mb-6 md:mb-0">

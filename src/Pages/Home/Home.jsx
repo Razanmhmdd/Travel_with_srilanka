@@ -11,6 +11,8 @@ import WithlocalsSection from '../../Components/Features/Features'
 import SriLankanFoodSection from '../../Components/Cards/Cards3'
 import ReviewCard from '../../Components/Reviews/Reviews'
 import Footer from '../../Components/Footer/Footer'
+import ManagementTeam from '../../Components/ManagementTeam/ManagementTeam'
+import CarouselLogo from '../../Components/LogoCarosal/CarouselLogo'
 const Home = () => {
   return (
     <div>
@@ -23,7 +25,9 @@ const Home = () => {
         <SriLankanFoodSection/>
         <MissionVision/>
         <WithlocalsSection/>
+        <CarouselLogo/>
         <ReviewCard/>
+        <ManagementTeam/>
         <Footer/>
     </div>
     

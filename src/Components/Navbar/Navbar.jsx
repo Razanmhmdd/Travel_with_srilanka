@@ -1,6 +1,6 @@
 
 import React, { useState } from "react"
-// import logo from "../../assets/img/logo/logo.png"
+import logo from "../../assets/img/logo/logo.png"
 export default function NavbarBasic() {
   const [isToggleOpen, setIsToggleOpen] = useState(false)
 
@@ -15,7 +15,7 @@ export default function NavbarBasic() {
             role="navigation"
           >
             {/*      <!-- Brand logo --> */}
-            <button><img src={""} alt="Logo" className="h-12 w-auto" /></button>
+            <button><img src={logo} alt="Logo" className="h-12 w-auto" /></button>
             {/*      <!-- Mobile trigger --> */}
             <button
               className={`relative order-10 block h-10 w-10 self-center lg:hidden

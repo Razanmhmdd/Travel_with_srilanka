@@ -26,7 +26,7 @@ const reviews = [
 
 const ReviewCard = () => {
   return (
-    <section className="bg-white py-10 px-5">
+    <section className="bg-amber-50 py-10 px-5">
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold text-amber-500 text-center mb-10">
           What Our Travelers Say

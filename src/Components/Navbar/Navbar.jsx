@@ -1,6 +1,6 @@
 
 import React, { useState } from "react"
-import logo from '/src/assets/img/logo/logo.png';
+import logo from "../../assets/img/logo/logo.png"
 export default function NavbarBasic() {
   const [isToggleOpen, setIsToggleOpen] = useState(false)
 

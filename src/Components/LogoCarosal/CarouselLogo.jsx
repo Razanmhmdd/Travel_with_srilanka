@@ -39,7 +39,7 @@ export default function CarouselLogo() {
   return (
     <>
       {/*<!-- Component: Testimonial carousel --> */}
-      <div className="glide-09 relative w-full px-4 sm:px-8 lg:px-12 py-6">
+      <div className="glide-09 overflow-hidden relative w-full px-4 sm:px-8 lg:px-12 py-6">
         {/* <!-- Slides --> */}
         <div data-glide-el="track">
           <ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0 gap-4 md:gap-6 lg:gap-8">

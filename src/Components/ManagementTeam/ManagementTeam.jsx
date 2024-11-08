@@ -30,7 +30,7 @@ const ManagementTeam = () => {
         <div className='border-2 border-amber-200'>
         <TeamMemberCard
           image={img2}
-          name="Aanisah Mohamed ( Cert BA )executive Secretary"
+          name="(Cert BA) Ms. Aanisah Mohamed "
           position="Executive Secretary"
         />
         </div>

@@ -71,11 +71,7 @@ const DestinationGuide = () => {
       description: "Explore Unawatuna",
       image: una,
     },
-    // {
-    //   name: "ANURADHAPURA",
-    //   description: "Explore Anuradhapura",
-    //   image: anu,
-    // },
+ 
   ];
 
   const settings = {

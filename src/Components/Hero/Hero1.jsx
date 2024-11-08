@@ -4,47 +4,43 @@ import image from '/assets/img/ye.jpg';
 const LandingPage = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  // Toggle modal visibility
   const handleModal = () => {
     setIsModalOpen(!isModalOpen);
   };
 
   return (
-    <div className="flex flex-wrap">
+    <div className="flex flex-col sm:flex-row h-screen">
       {/* Left Section with Text and Button */}
-      <div className="w-full sm:w-8/12 mb-10">
-        <div className="container mx-auto h-full sm:p-10 bg-amber-50">
-          <nav className="flex px-4 justify-between items-center">
-            <div className="text-4xl font-bold">
-              Travel<span className="text-amber-500">.</span>
-            </div>
-          </nav>
-          <header className="container px-4 lg:flex mt-10 items-center h-full lg:mt-0">
-            <div className="w-full">
-              <h1 className="text-4xl lg:text-6xl font-bold">
-                <span className="text-amber-500">Travel</span> With Sri Lanka
-              </h1>
-              <div className="w-20 h-2 bg-amber-500 my-4"></div>
-              <p className="text-xl mb-10">
-                Discover the beauty of Sri Lanka, where vibrant culture meets breathtaking landscapes, from golden beaches to misty mountains. Dive into rich history, exotic wildlife, and flavors that make every journey unforgettable.
-              </p>
-              <button 
-                className="bg-amber-500 text-white text-2xl font-medium px-4 py-2 rounded shadow hover:bg-amber-600"
-                onClick={handleModal}
-              >
-                Book Now
-              </button>
-            </div>
-          </header>
-        </div>
+      <div className="w-full sm:w-8/12 h-full flex flex-col items-center justify-center p-8 sm:p-10 bg-amber-50">
+        <nav className="flex px-4 justify-between items-center">
+        </nav>
+        <header className="container px-4 lg:flex mt-10 items-center lg:mt-0">
+          <div className="w-full">
+            <h1 className="text-4xl lg:text-6xl font-bold">
+              <span className="text-amber-500">Travel</span> With Sri Lanka
+            </h1>
+            <div className="w-20 h-2 bg-amber-500 my-4"></div>
+            <p className="text-xl mb-10">
+              Discover the beauty of Sri Lanka, where vibrant culture meets breathtaking landscapes, from golden beaches to misty mountains. Dive into rich history, exotic wildlife, and flavors that make every journey unforgettable.
+            </p>
+            <button
+              className="bg-amber-500 text-white text-2xl font-medium px-4 py-2 rounded shadow hover:bg-amber-600"
+              onClick={handleModal}
+            >
+              Book Now
+            </button>
+          </div>
+        </header>
       </div>
 
       {/* Right Section with Image */}
-      <img
-        src={image}
-        alt="Leafs"
-        className="w-full h-48 object-cover sm:h-screen sm:w-4/12"
-      />
+      <div className="w-full sm:w-4/12 h-full">
+        <img
+          src={image}
+          alt="Leafs"
+          className="w-full h-full object-cover"
+        />
+      </div>
 
       {/* Modal for Hotel Booking Form */}
       {isModalOpen && (
@@ -61,7 +57,7 @@ const LandingPage = () => {
                 className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
               />
               <input 
-                type="number" 
+                type="text" 
                 placeholder="Mobile No" 
                 className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
               />
@@ -83,6 +79,10 @@ const LandingPage = () => {
                 placeholder="Check-out Date" 
                 className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
               />
+               <textarea 
+                placeholder="Message" 
+                className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
+              />
               <button 
                 type="submit" 
                 className="w-full bg-amber-500 text-white py-2 rounded-lg shadow hover:bg-amber-600"
@@ -90,6 +90,7 @@ const LandingPage = () => {
                 Confirm Booking
               </button>
             </form>
+            
           </div>
         </div>
       )}

@@ -1,9 +1,9 @@
 import React from "react";
 
-import v from "../../assets/img/City/unawatuna.webp";
-import a from "../../assets/img/Cards2/pinna.jpg";
-import c from "../../assets/img/Cards2/hospitality.webp";
-import d from "../../assets/img/Cards2/img3.jpg";
+import v from "/assets/img/City/unawatuna.webp";
+import a from "/assets/img/Cards2/pinna.jpg";
+import c from "/assets/img/Cards2/hospitality.webp";
+import d from "/assets/img/Cards2/img3.jpg";
 
 const experiences = [
   {

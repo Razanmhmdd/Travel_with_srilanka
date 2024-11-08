@@ -3,17 +3,16 @@ import React from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import mirissa from "../../assets/img/City/mirisa.jpg";
-import trinco from "../../assets/img/City/trinco.jpg";
-import galle from "../../assets/img/City/galle1.jpg";
-import anu from "../../assets/img/City/kalutara.png";
-import habarana from "../../assets/img/City/habarana.jpg";
-import kalpiti from "../../assets/img/City/kalpiti.jpg";
-import kandy from "../../assets/img/City/kandy.jpg";
-import sigi from "../../assets/img/City/sigiriya.jpg";
-import una from "../../assets/img/City/unawatuna.webp";
-import ella from "../../assets/img/City/ella.jpg";
-import pinna from "../../assets/img/City/pinna.jpg";
+import mirissa from "/assets/img/City/mirisa.jpg";
+import trinco from "/assets/img/City/trinco.jpg";
+import galle from "/assets/img/City/galle1.jpg";
+import habarana from "/assets/img/City/habarana.jpg";
+import kalpiti from "/assets/img/City/kalpiti.jpg";
+import kandy from "/assets/img/City/kandy.jpg";
+import sigi from "/assets/img/City/sigiriya.jpg";
+import una from "/assets/img/City/unawatuna.webp";
+import ella from "/assets/img/City/ella.jpg";
+import pinna from "/assets/img/City/pinna.jpg";
 
 
 
@@ -72,11 +71,11 @@ const DestinationGuide = () => {
       description: "Explore Unawatuna",
       image: una,
     },
-    {
-      name: "ANURADHAPURA",
-      description: "Explore Anuradhapura",
-      image: anu,
-    },
+    // {
+    //   name: "ANURADHAPURA",
+    //   description: "Explore Anuradhapura",
+    //   image: anu,
+    // },
   ];
 
   const settings = {

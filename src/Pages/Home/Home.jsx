@@ -12,12 +12,13 @@ import SriLankanFoodSection from '../../Components/Cards/Cards3'
 import ReviewCard from '../../Components/Reviews/Reviews'
 import Footer from '../../Components/Footer/Footer'
 import ManagementTeam from '../../Components/ManagementTeam/ManagementTeam'
-import CarouselLogo from '../../Components/LogoCarosal/CarouselLogo'
+import Contact from '../../Components/ContactUs/Contact'
+import LandingPage from '../../Components/Hero/Hero1'
 const Home = () => {
   return (
     <div>
         <Navbar/>
-        <Hero/>
+        <LandingPage/>
        <DestinationGuide/>
         <Cards1/>
         <Cards2/>
@@ -25,8 +26,9 @@ const Home = () => {
         <SriLankanFoodSection/>
         <MissionVision/>
         <WithlocalsSection/>
-        <CarouselLogo/>
+        {/* <CarouselLogo/> */}
         <ReviewCard/>
+        <Contact/>
         <ManagementTeam/>
         <Footer/>
     </div>

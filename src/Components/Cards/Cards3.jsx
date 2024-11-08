@@ -1,5 +1,5 @@
 import React from "react";
-import foodImage from "../../assets/img/img1.jpeg"; // Replace with the path to your image
+import foodImage from "/assets/img/img1.jpeg"; // Replace with the path to your image
 
 const SriLankanFoodSection = () => {
   return (

@@ -1,9 +1,9 @@
 import React from "react";
 
-import v from "../../assets/img/Cards2/party.jpg";
-import a from "../../assets/img/Cards2/bbq.jpeg";
-import c from "../../assets/img/Cards2/boat.jpg";
-import d from "../../assets/img/Cards2/Surfing.jpg";
+import v from "/assets/img/Cards2/party.jpg";
+import a from "/assets/img/Cards2/bbq.jpeg";
+import c from "/assets/img/Cards2/boat.jpg";
+import d from "/assets/img/Cards2/Surfing.jpg";
 
 const experiences = [
   {

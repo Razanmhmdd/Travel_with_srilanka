@@ -1,6 +1,6 @@
 import React from 'react';
-import img1 from "../../assets/img/managment/dr.jpeg"
-import img2 from "../../assets/img/managment/assi.jpeg"
+import img1 from "/assets/img/managment/dr.jpeg"
+import img2 from "/assets/img/managment/assi.jpeg"
 
 const TeamMemberCard = ({ image, name, position }) => (
   <div className="bg-white shadow-lg rounded-lg overflow-hidden p-4 flex flex-col items-center text-center transition-transform duration-200 hover:scale-105">

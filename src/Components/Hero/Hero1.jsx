@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import image from '/assets/img/ye.jpg';
+import { Link } from 'react-router-dom';
 
 const LandingPage = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -46,7 +47,7 @@ const LandingPage = () => {
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 p-4">
           <div className="bg-white rounded-lg p-6 w-full max-w-md">
             <div className="flex justify-between items-center">
-              <h2 className="text-2xl font-bold text-amber-500 mb-4">Book Your Stay</h2>
+              <h2 className="text-2xl font-bold text-amber-500 mb-4">Travel with Srilanka</h2>
               <button className="text-gray-500 hover:text-gray-800" onClick={handleModal}>&#10005;</button>
             </div>
             <form className="space-y-4">
@@ -63,11 +64,19 @@ const LandingPage = () => {
               <select 
                 className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
               >
-                <option value="">Select Hotel</option>
-                <option value="hotel1">Cinamon</option>
-                <option value="hotel2">Galadhari</option>
-                <option value="hotel3">Shangarilla</option>
+                <option value="">Select Pacakages</option>
+                <option value="hotel1">Colombo city tour</option>
+                <option value="hotel2">Galle city tour</option>
+                <option value="hotel3">Add Personlize massage Therapy </option>
+                <option value="hotel2">Explore Sigiriya</option>
+                <option value="hotel2">Airport pickup and Drop off</option>
+                <option value="hotel2">colombo Street Food Tour</option>
               </select>
+              <input 
+                type="number" 
+                placeholder="Persons" 
+                className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
+              />
               <input 
                 type="date" 
                 placeholder="Check-in Date" 

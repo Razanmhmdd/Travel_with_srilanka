@@ -1,5 +1,5 @@
 import React from 'react';
-import img1 from "/assets/img/managment/dr.jpeg";
+import img1 from "/assets/img/managment/yo.jpeg";
 import img2 from "/assets/img/managment/assi.jpeg";
 import img3 from "/assets/img/managment/gm.jpeg";
 
@@ -24,10 +24,10 @@ const ManagementTeam = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full px-4 md:px-20">
       <div className="border-2 border-amber-200   p-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-105">
       <TeamMemberCard
-            image={img1}
-            name="CEO Mr. Naushad Mohamed"
-            position="Managing Director"
-            num="+94771181803"
+            image={img2}
+            name="(Cert BA) Ms. Aanisah Mohamed"
+            position="Executive Secretary"
+            num="+94764470941"
           />
         </div>
         <div className="border-2 border-amber-200   p-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-105">
@@ -40,10 +40,10 @@ const ManagementTeam = () => {
         </div>
         <div className="border-2 border-amber-200   p-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-105">
           <TeamMemberCard
-            image={img2}
-            name="(Cert BA) Ms. Aanisah Mohamed"
-            position="Executive Secretary"
-            num="+94764470941"
+            image={img1}
+            name="Mr.Champika yohan sampath uyanag"
+            position="Consultant Ayurvedic Massage Therapist"
+            num="+94773544300"
           />
         </div>
       </div>

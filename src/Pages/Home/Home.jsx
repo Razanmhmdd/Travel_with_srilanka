@@ -13,6 +13,7 @@ import ManagementTeam from '../../Components/ManagementTeam/ManagementTeam'
 import Contact from '../../Components/ContactUs/Contact'
 import LandingPage from '../../Components/Hero/Hero1'
 import { FloatingWhatsApp } from 'react-floating-whatsapp';
+import SriLanka from '../../Components/Cards/Cards5'
 
 const Home = () => {
   return (
@@ -21,14 +22,10 @@ const Home = () => {
         <LandingPage/>
        <DestinationGuide/>
         <Cards1/>
-        <Cards2/>
-        <Cards4/>
+        <SriLanka/>
         <SriLankanFoodSection/>
-        <MissionVision/>
-        <WithlocalsSection/>
+        <Cards2/>
         <ReviewCard/>
-        <Contact/>
-        <ManagementTeam/>
         <Footer/>
         {/* Floating WhatsApp Button */}
       <FloatingWhatsApp

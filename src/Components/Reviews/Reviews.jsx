@@ -11,9 +11,9 @@ const reviews = [
     location: "USA",
   },
   {
-    name: "Jenifer",
+    name: "Alia",
     image: img2, 
-    review:"I had an amazing time with Travel with Sri Lanka! Their commitment to customer satisfaction truly set them apart. The itinerary was perfectly tailored to my interests, and the guides were knowledgeable and friendly, making each destination come alive. I especially appreciated their quick responses to my questions before and during the trip. The entire experience was seamless, and I can't wait to return!",
+    review:"I had an amazing time with Travel wth Sri Lanka! Their commitment to customer satisfaction truly set them apart. The itinerary was perfectly tailored to my interests, and the guides were knowledgeable and friendly, making each destination come alive. I especially appreciated their quick responses to my questions before and during the trip. The entire experience was seamless, and I can't wait to return!",
     location: "UK",
   },
   {

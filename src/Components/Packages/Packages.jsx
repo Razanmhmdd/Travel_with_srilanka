@@ -1,126 +1,95 @@
-import React from "react"
+// DestinationGuide.js
+import React from 'react';
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import galle from "/assets/img/City/galle1.jpg";
+import sigi from "/assets/img/City/sigiriya.jpg";
+import clm from "/assets/img/packs/img1.jpg"
+import spa from "/assets/img/packs/img2.jpg"
+import street from "/assets/img/packs/img4.webp"
+import air from "/assets/img/packs/img3.jpg"
 
-export default function Packages() {
+
+const DestinationGuide = () => {
+  const destinations = [
+    {
+      name: "Colombo city tour",
+      description: "Explore Colombo city tour",
+      image: clm,
+    },
+    {
+      name: "Galle city tour ",
+      description: "Explore Galle city tour ",
+      image: galle,
+    },
+    {
+      name: "Personlize massage Therapy",
+      description: "Explore Massage Therapy",
+      image: spa,
+    },
+    {
+      name: "SIGIRIYA",
+      description: "Explore sigiriya",
+      image: sigi,
+    },
+    {
+      name: "Airport pickup & Drop off",
+      description: "Explore Airport pickup & Drop off",
+      image: air,
+    },
+    {
+      name: "Colombo Street Food Tour",
+      description: "Explore City Tour",
+      image: street,
+    },
+ 
+  ];
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: { slidesToShow: 2, slidesToScroll: 1 },
+      },
+      {
+        breakpoint: 640,
+        settings: { slidesToShow: 1, slidesToScroll: 1 },
+      },
+    ],
+  };
+
   return (
-    <>
-      {/*<!-- Component: Elevated accordion --> */}
-      <section className="w-full divide-y divide-slate-200 rounded bg-white shadow-md shadow-slate-200">
-        <details className="group p-4" open>
-          <summary className="relative cursor-pointer list-none pr-8 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden">
-          Colombo City Tour  
-              <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="absolute right-0 top-1 h-4 w-4 shrink-0 stroke-slate-700 transition duration-300 group-open:rotate-45"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              aria-labelledby="title-ac13 desc-ac13"
-            >
-              <title id="title-ac13">Open icon</title>
-              <desc id="desc-ac13">
-                icon that represents the state of the summary
-              </desc>
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M12 4v16m8-8H4"
-              />
-            </svg>
-          </summary>
-          <p className="mt-4 text-slate-500">
-          Travel through yourself in the hustle and bustle of the heart of Sri Lanka’s capital: Colombo! Experience the sights, sounds, and smells of this vibrant city together with your private host. The very best must-sees, hidden gems, and local snacks await! So, learning more than possible alone. See the Red Mosque, markets, and more and stop to try popular foods such as cassava chips and 'achcharu' (pickle) to gain a true perspective on local life and cuisine that most visitors never get
-          </p>
-        </details>
-        <details className="group p-4">
-          <summary className="relative cursor-pointer list-none pr-8 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden">
-            How do I know what is new?
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="absolute right-0 top-1 h-4 w-4 shrink-0 stroke-slate-700 transition duration-300 group-open:rotate-45"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              aria-labelledby="title-ac14 desc-ac14"
-            >
-              <title id="title-ac14">Open icon</title>
-              <desc id="desc-ac14">
-                icon that represents the state of the summary
-              </desc>
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M12 4v16m8-8H4"
-              />
-            </svg>
-          </summary>
-          <p className="mt-4 text-slate-500">
-            You will always get notified about new components through our
-            discord and other social accounts. You can also see the newest
-            components on the main component page as well as the websites side
-            navigation with a "new" badge next to their name.
-          </p>
-        </details>
-        <details className="group p-4">
-          <summary className="relative cursor-pointer list-none pr-8 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden">
-            How do I know what is updated?
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="absolute right-0 top-1 h-4 w-4 shrink-0 stroke-slate-700 transition duration-300 group-open:rotate-45"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              aria-labelledby="title-ac15 desc-ac15"
-            >
-              <title id="title-ac15">Open icon</title>
-              <desc id="desc-ac15">
-                icon that represents the state of the summary
-              </desc>
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M12 4v16m8-8H4"
-              />
-            </svg>
-          </summary>
-          <p className="mt-4 text-slate-500">
-            All updated components will be accompanied by an "updated" badge.
-            YOu will be able to see that on our main components page as well as
-            our side navigation.
-          </p>
-        </details>
-        <details className="group p-4">
-          <summary className="relative cursor-pointer list-none pr-8 font-medium text-slate-700 transition-colors duration-300 focus-visible:outline-none group-hover:text-slate-900  [&::-webkit-details-marker]:hidden">
-            How will I know about any major releases or news?
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="absolute right-0 top-1 h-4 w-4 shrink-0 stroke-slate-700 transition duration-300 group-open:rotate-45"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              aria-labelledby="title-ac16 desc-ac16"
-            >
-              <title id="title-ac16">Open icon</title>
-              <desc id="desc-ac16">
-                icon that represents the state of the summary
-              </desc>
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M12 4v16m8-8H4"
-              />
-            </svg>
-          </summary>
-          <p className="mt-4 text-slate-500">
-            You will get notified by us about any major news or releases through
-            our newsletter and our social accounts.
-          </p>
-        </details>
-      </section>
-      {/*<!-- End Elevated accordion --> */}
-    </>
-  )
-}
+    <div className="bg-peach p-8">
+      <div className="text-center mb-8">
+        <h1 className="text-4xl font-extrabold text-amber-500">Our Packages</h1>
+        <h2 className="text-xl font-medium text-gray-600 mt-2">TRAVEL WITH SRI LANKA</h2>
+        <p className="text-gray-700 mt-4 max-w-2xl mx-auto">
+        Experience the vibrant charm of Sri Lanka with our exclusive travel offerings. Begin with a Colombo city tour, exploring its landmarks and local culture, followed by a journey to the historic coastal city of Galle. Treat yourself to a personalized massage therapy session to unwind, and then embark on an unforgettable adventure to Sigiriya, where you’ll witness the ancient rock fortress and stunning views. Enjoy hassle-free airport pickup and drop-off, and dive into the flavors of Sri Lanka with a Colombo street food tour, sampling the best of local cuisine. Let us guide you through the sights, tastes, and relaxation that make Sri Lanka unique.</p>
+       <button className="mt-4 text-blue-600 font-semibold hover:underline">FIND OUT MORE →</button>
+      </div>
+
+      <Slider {...settings} className="mx-auto w-full max-w-6xl">
+        {destinations.map((destination, index) => (
+          <div key={index} className="p-4">
+            <div className="bg-white shadow-lg rounded-lg overflow-hidden border-2 border-amber-200">
+              <img src={destination.image} alt={destination.name} className="w-full h-64 object-cover" />
+              <div className="p-6 text-center">
+                <h3 className="text-gray-500 uppercase tracking-wide text-sm">{destination.description}</h3>
+                <h2 className="text-xl font-bold mt-2 text-amber-500 ">{destination.name}</h2>
+                <button className="mt-4 text-blue-600 font-semibold hover:underline">→</button>
+              </div>
+            </div>
+          </div>
+        ))}
+      </Slider>
+    </div>
+  );
+};
+
+export default DestinationGuide;

@@ -30,25 +30,34 @@ const experiences = [
     description:
       "Sri Lankan wildlife is incredibly diverse, with over 26 national parks home to elephants, leopards, sloth bears, and a variety of bird species. The island’s unique ecosystems make it a biodiversity hotspot for nature enthusiasts and wildlife photographers alike.",
   },
-  
 ];
 
 const Cards2 = () => {
   return (
-    <section className="relative" id="service" >
-      <div className="bg-cover bg-center min-h-screen p-5 md:p-10 flex flex-col items-center text-center bg-white">
-        <div className="relative bg-cover bg-center min-h-screen p-5 md:p-10 flex flex-col items-center text-center mt-5 z-10">
-          <h2 className="text-3xl md:text-4xl font-bold text-amber-500 mb-6">EXPERIENCE IN SRI LANKA</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-8">
+    <section className="relative" id="service">
+      <div className="bg-cover bg-center h-full py-10 px-5 md:px-10 flex flex-col items-center text-center bg-gray-100">
+        <div className="max-w-7xl w-full">
+          <h2 className="text-3xl md:text-4xl font-bold text-amber-500 mb-10 text-center">
+            EXPERIENCE IN SRI LANKA
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
             {experiences.map((experience, index) => (
               <div
                 key={index}
-                className="bg-white border-2 border-amber-200  rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105"
+                className="bg-white border-2 border-amber-200 rounded-lg shadow-lg overflow-hidden transform transition duration-300 hover:scale-105 flex flex-col items-center"
               >
-                <img src={experience.image} alt={experience.title} className="w-full h-48 md:h-56 object-cover" />
-                <div className="p-3 md:p-5">
-                  <h3 className="font-bold text-lg md:text-xl mb-2 text-amber-500">{experience.title}</h3>
-                  <p className="text-gray-700 text-base md:text-base">{experience.description}</p>
+                <img
+                  src={experience.image}
+                  alt={experience.title}
+                  className="w-full h-48 md:h-56 object-cover"
+                />
+                <div className="p-4 md:p-6 text-center">
+                  <h3 className="font-bold text-lg md:text-xl mb-2 text-amber-500">
+                    {experience.title}
+                  </h3>
+                  <p className="text-gray-700 text-base md:text-base">
+                    {experience.description}
+                  </p>
                 </div>
               </div>
             ))}

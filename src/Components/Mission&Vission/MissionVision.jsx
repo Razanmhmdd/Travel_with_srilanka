@@ -2,7 +2,7 @@ import React from 'react';
 
 const MissionVision = () => {
   return (
-    <div className="py-12 px-6 bg-white">
+    <div className="py-12 px-6 bg-gray-100">
       <h2 className="text-3xl font-bold text-center text-amber-500 mb-12 ">OUR VISSION & MISSION</h2>
 
       <div className=" max-w-5xl mx-auto grid gap-10 lg:grid-cols-2">

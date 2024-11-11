@@ -19,7 +19,7 @@ const TeamMemberCard = ({ image, name, position, num }) => (
 
 const ManagementTeam = () => {
   return (
-    <div className="flex flex-col items-center py-10 bg-white">
+    <div className="flex flex-col items-center py-10 bg-gray-100">
       <h2 className="text-2xl font-bold text-amber-500 mb-6 text-center px-4">Our Management Team</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full px-4 md:px-20">
       <div className="border-2 border-amber-200   p-8 rounded-lg shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-105">

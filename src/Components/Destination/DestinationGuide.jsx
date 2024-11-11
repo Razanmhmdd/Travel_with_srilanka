@@ -93,7 +93,7 @@ const DestinationGuide = () => {
   };
 
   return (
-    <div className="bg-peach p-8">
+    <div className="bg-amber-50 p-8">
       <div className="text-center mb-8">
         <h1 className="text-4xl font-extrabold text-amber-500">DESTINATION GUIDE</h1>
         <h2 className="text-xl font-medium text-gray-600 mt-2">HOLIDAY IN SRI LANKA</h2>

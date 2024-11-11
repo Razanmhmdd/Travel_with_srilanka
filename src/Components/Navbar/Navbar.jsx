@@ -8,7 +8,7 @@ export default function NavbarActionButton() {
   return (
     <>
       {/*<!-- Navbar with CTA -->*/}
-      <header className="relative z-20 w-full border-b shadow-lg border-slate-200 bg-white/90 shadow-slate-700/5 after:absolute after:left-0 after:top-full after:z-10 after:block after:h-px after:w-full after:bg-slate-200 lg:border-slate-200 lg:backdrop-blur-sm lg:after:hidden">
+      <header className="relative z-20 w-full border-b shadow-lg border-slate-200 bg-amber-50 shadow-slate-700/5 after:absolute after:left-0 after:top-full after:z-10 after:block after:h-px after:w-full after:bg-slate-200 lg:border-slate-200 lg:backdrop-blur-sm lg:after:hidden">
         <div className="relative mx-auto max-w-full px-6 lg:max-w-5xl xl:max-w-7xl 2xl:max-w-[96rem]">
           <nav className="flex h-[5.5rem] items-stretch justify-between font-medium text-slate-700">
             <button>
@@ -47,18 +47,6 @@ export default function NavbarActionButton() {
                   }
                 >
                   <span>Home</span>
-                </NavLink>
-              </li>
-              <li className="flex items-stretch">
-                <NavLink
-                  to="/destinations"
-                  className={({ isActive }) =>
-                    `flex items-center gap-2 py-4 text-lg transition-colors duration-300 hover:text-amber-500 focus:text-amber-600 lg:px-8 ${
-                      isActive ? "text-amber-600" : ""
-                    }`
-                  }
-                >
-                  <span>Destinations</span>
                 </NavLink>
               </li>
               <li className="flex items-stretch">

@@ -1,6 +1,6 @@
-// DestinationGuide.js
 import React from 'react';
 import Slider from 'react-slick';
+import { motion } from 'framer-motion';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import mirissa from "/assets/img/City/mirisa.jpg";
@@ -13,11 +13,6 @@ import sigi from "/assets/img/City/sigiriya.jpg";
 import una from "/assets/img/City/unawatuna.webp";
 import ella from "/assets/img/City/ella.jpg";
 import pinna from "/assets/img/City/pinna.jpg";
-
-
-
-
-
 
 const DestinationGuide = () => {
   const destinations = [
@@ -71,7 +66,6 @@ const DestinationGuide = () => {
       description: "Explore Unawatuna",
       image: una,
     },
- 
   ];
 
   const settings = {
@@ -105,16 +99,23 @@ const DestinationGuide = () => {
 
       <Slider {...settings} className="mx-auto w-full max-w-6xl">
         {destinations.map((destination, index) => (
-          <div key={index} className="p-4">
+          <motion.div
+            key={index}
+            className="p-4"
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: index * 0.1 }}
+            whileHover={{ scale: 1.05 }}
+          >
             <div className="bg-white shadow-lg rounded-lg overflow-hidden border-2 border-amber-200">
               <img src={destination.image} alt={destination.name} className="w-full h-64 object-cover" />
               <div className="p-6 text-center">
                 <h3 className="text-gray-500 uppercase tracking-wide text-sm">{destination.description}</h3>
-                <h2 className="text-2xl font-bold mt-2 text-amber-500 ">{destination.name}</h2>
+                <h2 className="text-2xl font-bold mt-2 text-amber-500">{destination.name}</h2>
                 <button className="mt-4 text-blue-600 font-semibold hover:underline">→</button>
               </div>
             </div>
-          </div>
+          </motion.div>
         ))}
       </Slider>
     </div>

@@ -69,7 +69,7 @@ const DestinationGuide = () => {
       <div className="text-center mb-8">
         <h1 className="text-4xl font-extrabold text-amber-500">Our Packages</h1>
         <h2 className="text-xl font-medium text-gray-600 mt-2">TRAVEL WITH SRI LANKA</h2>
-        <p className="text-gray-700 mt-4 max-w-2xl mx-auto">
+        <p className="text-gray-700 mt-4 max-w-2xl mx-auto text-justify">
         Experience the vibrant charm of Sri Lanka with our exclusive travel offerings. Begin with a Colombo city tour, exploring its landmarks and local culture, followed by a journey to the historic coastal city of Galle. Treat yourself to a personalized massage therapy session to unwind, and then embark on an unforgettable adventure to Sigiriya, where you’ll witness the ancient rock fortress and stunning views. Enjoy hassle-free airport pickup and drop-off, and dive into the flavors of Sri Lanka with a Colombo street food tour, sampling the best of local cuisine. Let us guide you through the sights, tastes, and relaxation that make Sri Lanka unique.</p>
        <button className="mt-4 text-blue-600 font-semibold hover:underline">FIND OUT MORE →</button>
       </div>

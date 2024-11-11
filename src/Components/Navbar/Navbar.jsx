@@ -11,9 +11,10 @@ export default function NavbarActionButton() {
       <header className="relative z-20 w-full border-b shadow-lg border-slate-200 bg-amber-50 shadow-slate-700/5 after:absolute after:left-0 after:top-full after:z-10 after:block after:h-px after:w-full after:bg-slate-200 lg:border-slate-200 lg:backdrop-blur-sm lg:after:hidden">
         <div className="relative mx-auto max-w-full px-6 lg:max-w-5xl xl:max-w-7xl 2xl:max-w-[96rem]">
           <nav className="flex h-[5.5rem] items-stretch justify-between font-medium text-slate-700">
-            <button>
-              <img src={logo} alt="Logo" className="h-12 w-auto" />
-            </button>
+            
+          <NavLink to="/" className="flex items-center">
+            <img src={logo} alt="Logo" className="h-12 w-auto" />
+          </NavLink>
             {/* Mobile menu toggle */}
             <button
               className={`relative order-10 block h-10 w-10 self-center lg:hidden ${

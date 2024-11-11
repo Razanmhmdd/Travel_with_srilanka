@@ -36,7 +36,7 @@ const experiences = [
 const Cards2 = () => {
   return (
     <section className="relative" id="service" >
-      <div className="bg-cover bg-center min-h-screen p-5 md:p-10 flex flex-col items-center text-center bg-amber-50">
+      <div className="bg-cover bg-center min-h-screen p-5 md:p-10 flex flex-col items-center text-center bg-white">
         <div className="relative bg-cover bg-center min-h-screen p-5 md:p-10 flex flex-col items-center text-center mt-5 z-10">
           <h2 className="text-3xl md:text-4xl font-bold text-amber-500 mb-6">EXPERIENCE IN SRI LANKA</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-8">

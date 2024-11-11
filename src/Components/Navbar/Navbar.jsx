@@ -63,7 +63,7 @@ export default function NavbarActionButton() {
               </li>
               <li className="flex items-stretch">
                 <NavLink
-                  to="/packages"
+                  to="/pack"
                   className={({ isActive }) =>
                     `flex items-center gap-2 py-4 text-lg transition-colors duration-300 hover:text-amber-500 focus:text-amber-600 lg:px-8 ${
                       isActive ? "text-amber-600" : ""

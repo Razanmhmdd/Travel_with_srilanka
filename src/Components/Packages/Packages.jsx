@@ -9,6 +9,8 @@ import clm from "/assets/img/packs/img1.jpg"
 import spa from "/assets/img/packs/img2.jpg"
 import street from "/assets/img/packs/img4.webp"
 import air from "/assets/img/packs/img3.jpg"
+import tuk from "/assets/img/packs/img4.jpg"
+import sco from "/assets/img/packs/img5.jpg"
 
 
 const DestinationGuide = () => {
@@ -43,7 +45,16 @@ const DestinationGuide = () => {
       description: "Explore City Tour",
       image: street,
     },
- 
+    {
+      name: "Colombo TukTuk Tour",
+      description: "Explore Tuk Tuk ",
+      image: tuk,
+    },
+    {
+      name: "Colombo City Tour  Scooter",
+      description: "Explore Scooter",
+      image: sco,
+    },
   ];
 
   const settings = {

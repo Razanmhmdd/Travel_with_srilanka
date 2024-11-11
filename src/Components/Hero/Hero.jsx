@@ -96,6 +96,8 @@ const Hero = () => {
                 <option value="hotel3">Explore Sigiriya</option>
                 <option value="hotel4">Airport Pickup & Drop off</option>
                 <option value="hotel5">Colombo Street Food Tour</option>
+                <option value="hotel6">Colombo City Tour by Tuk Tuk</option>
+                <option value="hotel7">Colombo City Tour By( Scooter for Signal person)</option>
               </select>
               
               {/* Arrival Date */}

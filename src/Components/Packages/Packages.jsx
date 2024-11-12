@@ -11,6 +11,7 @@ import street from "/assets/img/packs/img4.webp"
 import air from "/assets/img/packs/img3.jpg"
 import tuk from "/assets/img/packs/img4.jpg"
 import sco from "/assets/img/packs/img5.jpg"
+import kan from "/assets/img/packs/kan.jpg"
 
 
 const DestinationGuide = () => {
@@ -36,9 +37,9 @@ const DestinationGuide = () => {
       image: sigi,
     },
     {
-      name: "Airport pickup & Drop off",
-      description: "Explore Airport pickup & Drop off",
-      image: air,
+      name: "KANDY",
+      description: "Explore Kandy",
+      image: kan,
     },
     {
       name: "Colombo Street Food Tour",
@@ -55,6 +56,11 @@ const DestinationGuide = () => {
       description: "Explore Scooter",
       image: sco,
     },
+    {
+      name: "Airport pickup &  Drop off",
+      description: "",
+      image: air,
+    }
   ];
 
   const settings = {

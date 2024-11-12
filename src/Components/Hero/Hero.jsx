@@ -9,7 +9,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="flex flex-col md:flex-row items-center justify-between px-4 md:px-12 py-16 bg-gray-100 h-screen overflow-hidden">
+    <section className="flex flex-col md:flex-row items-center justify-between px-4 md:px-12 py-16 h-screen overflow-hidden ">
       
       {/* Left Content */}
       <motion.div
@@ -22,8 +22,7 @@ const Hero = () => {
           <span className="text-amber-500">Travel</span> With Sri Lanka
         </h1>
         <p className="text-lg md:text-xl text-gray-600 mb-6">
-          Plan your dream vacation with us, and explore stunning destinations across Sri Lanka.
-        </p>
+        "You're Adventure, My Expertise "        </p>
         <button
           className="px-6 py-3 bg-amber-500 text-white rounded-lg shadow-md hover:bg-amber-600"
           onClick={handleModal}
@@ -43,17 +42,17 @@ const Hero = () => {
           <motion.div
             className="bg-cover bg-center h-64 w-44 md:w-56 lg:w-64 rounded-lg shadow-lg transform translate-y-8 border-2 border-amber-300"
             style={{ backgroundImage: "url('/assets/img/Goyambokka.jpg')" }}
-            whileHover={{ scale: 1.05 }}
+            //whileHover={{ scale: 1.05 }}
           ></motion.div>
           <motion.div
             className="bg-cover bg-center h-64 w-44 md:w-56 lg:w-64 rounded-lg shadow-lg transform -translate-y-4 border-2 border-amber-300"
             style={{ backgroundImage: "url('/assets/img/fall.jpg')" }}
-            whileHover={{ scale: 1.05 }}
+            //whileHover={{ scale: 1.05 }}
           ></motion.div>
           <motion.div
             className="bg-cover bg-center h-64 w-44 md:w-56 lg:w-64 rounded-lg shadow-lg transform translate-y-8 border-2 border-amber-300"
             style={{ backgroundImage: "url('/assets/img/ye.jpg')" }}
-            whileHover={{ scale: 1.05 }}
+           // whileHover={{ scale: 1.05 }}
           ></motion.div>
         </div>
       </motion.div>
@@ -92,8 +91,9 @@ const Hero = () => {
               >
                 <option value="">Select packages</option>
                 <option value="hotel1">Colombo city tour</option>
-                <option value="hotel2">Add Personalized Massage Therapy</option>
+                <option value="hotel2">Personalized Massage Therapy</option>
                 <option value="hotel3">Explore Sigiriya</option>
+                <option value="hotel3">Explore Kandy</option>
                 <option value="hotel4">Airport Pickup & Drop off</option>
                 <option value="hotel5">Colombo Street Food Tour</option>
                 <option value="hotel6">Colombo City Tour by Tuk Tuk</option>

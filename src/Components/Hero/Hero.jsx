@@ -20,7 +20,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="flex flex-col md:flex-row items-center justify-between px-4 md:px-12 py-16 h-screen overflow-hidden">
+    <section className="flex flex-col md:flex-row items-center justify-between px-4 md:px-12 py-16 min-h-screen overflow-hidden">
       
       {/* Left Content */}
       <motion.div
@@ -32,7 +32,7 @@ const Hero = () => {
         <h1 className="text-3xl md:text-5xl font-bold text-gray-800 mb-4">
           <span className="text-amber-500">Travel</span> With Sri Lanka
         </h1>
-        <h3 className="text-lg md:text-xl text-gray-600 mb-4">
+        <h3 className="text-lg md:text-xl text-amber-600 mb-4">
           "Your Adventure, My Expertise"
         </h3>
         <p className="text-sm md:text-lg text-gray-600 mb-6">

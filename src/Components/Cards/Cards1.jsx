@@ -5,17 +5,17 @@ import 'swiper/css/pagination';
 import { EffectCoverflow, Pagination } from 'swiper/modules';
 
 // Import images
-import r from "/assets/img/cards1/wa.jpg"
-import t from "/assets/img/cards1/q.jpg"
-import u from "/assets/img/cards1/w.jpg"
-import y from "/assets/img/cards1/honey.jpg"
-import a from '/assets/img/cards1/elephants.jpg';
-import c from '/assets/img/cards1/w.jpg';
-import d from '/assets/img/cards1/budha.jpg';
-import z from '/assets/img/cards1/campfire.jpg';
-import x from '/assets/img/cards1/hill.jpg';
-import b from '/assets/img/cards1/paddy.jpg';
-import n from '/assets/img/cards1/lake.jpg';
+import r from "/assets/img/cards1/wat.jpg"
+import t from "/assets/img/cards1/sigii.jpg"
+import u from "/assets/img/cards1/beach.jpg"
+import y from "/assets/img/cards1/hon.jpeg"
+import a from '/assets/img/cards1/ele.jpg';
+import c from '/assets/img/cards1/beach.jpg';
+import d from '/assets/img/cards1/cul.jpg';
+import z from '/assets/img/cards1/camp.jpg';
+import x from '/assets/img/cards1/hik.jpg';
+import b from '/assets/img/cards1/pad.jpg';
+import n from '/assets/img/cards1/lakee.jpg';
 
 const images = [
   { title: "Amazing Waterfall", image: r },

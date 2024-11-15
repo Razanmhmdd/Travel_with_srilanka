@@ -11,6 +11,15 @@ const Gallery = () => {
     { id: 6, url: '/assets/img/na6.jpeg', alt: 'Image 6' },
     { id: 7, url: '/assets/img/na7.jpg', alt: 'Image 7' },
     { id: 8, url: '/assets/img/na8.jpg', alt: 'Image 8' },
+    { id: 9, url: '/assets/img/na9.jpeg', alt: 'Image 8' },
+    { id: 10, url: '/assets/img/na10.jpeg', alt: 'Image 8' },
+    { id: 11, url: '/assets/img/11.jpeg', alt: 'Image 8' },
+    { id: 12, url: '/assets/img/12.jpeg', alt: 'Image 8' },
+    { id: 13, url: '/assets/img/13.jpeg', alt: 'Image 8' },
+    { id: 14, url: '/assets/img/14.jpeg', alt: 'Image 8' },
+    { id: 15, url: '/assets/img/15.jpeg', alt: 'Image 8' },
+    { id: 16, url: '/assets/img/16.jpeg', alt: 'Image 8' },
+    { id: 17, url: '/assets/img/17.jpeg', alt: 'Image 8' },
     // Add more images as needed
   ];
 
